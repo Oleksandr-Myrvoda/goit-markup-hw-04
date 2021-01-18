@@ -278,6 +278,12 @@ header {
   padding-bottom: 210px;
 }
 
+.hero-content {
+  width: 900px;
+  height: 200px;
+  margin: 0 auto;
+}
+
 .overlay {
   height: 600px;
   max-width: 1600px;
@@ -476,6 +482,7 @@ header {
 }
 
 .projects-item-box {
+  display: block;
   background: var(--text-white-color);
   border: 1px solid var(--border-box);
 }
