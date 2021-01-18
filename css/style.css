@@ -206,7 +206,8 @@ header {
 
 .footer-block .block {
   margin-left: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+  /* flex-basis: calc(100% / 3 - 30px); */
+  width: 270px;
 }
 
 .footer .logo {
@@ -547,6 +548,9 @@ header {
 }
 
 /* ======== SOCIAL FOOTER  === ICON == SVG ========= */
+.footer-social-block {
+  padding-top: 15px;
+}
 
 .footer-social-block .social {
   margin-top: 20px;
